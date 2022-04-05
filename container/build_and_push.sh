@@ -11,7 +11,7 @@ echo "installing dependencies in the docker image"
 echo `cat ./source/requirements.txt`
 
 
-ECR_REPO="sagemker-pytorch-scatter"
+ECR_REPO="sagemaker-pytorch-scatter"
 ECR_URL="${account}.dkr.ecr.${REGION}.amazonaws.com"
 image="${ECR_REPO}:sagemaker-training-pytorch-scatter-1.10-gpu-py38"
 
