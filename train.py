@@ -5,6 +5,7 @@ import time
 
 import torch
 from torch_scatter import scatter_max
+from torch_geometric.nn import GCNConv, GATConv, TransformerConv
 
 
 def train(args):
